@@ -49,12 +49,14 @@ button{
 .collections{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    justify-content: ;
+    margin: 0 196px;
 }
 
 .collection-box{
-    width: 20;
-    box-shadow: 10px 10px 40px gray;
+    margin: 15px;
+    box-shadow: 10px 10px 50px gray;
+    padding: 15px;
+    border-radius: 5px;
 }
 .collection-title{
     font-size: 28px;
