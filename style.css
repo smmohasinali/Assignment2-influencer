@@ -50,14 +50,17 @@ button{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin: 0 196px;
+    justify-content: space-around;
 }
 
 .collection-box{
+    width: 300px;
     margin: 15px;
     box-shadow: 10px 10px 50px gray;
     padding: 15px;
     border-radius: 5px;
 }
+
 .collection-title{
     font-size: 28px;
     margin: 0;
@@ -85,5 +88,46 @@ button{
 h5{
     margin: 0;
 }
-
+.see-more{
+    font-size: 16px;
+    text-align: right;
+    margin-right: 196px;
+}
 /* .popular-collection */
+
+/* featured item */
+.featured h1{
+    font-size: 38px;
+}
+.text{
+    font-size: 16px;
+}
+.join{
+    border-radius: 0;
+}
+.featured{
+    display: flex;
+}
+.pic{
+    width: 50%;
+    height: 50%;
+}
+/* featured item */
+
+
+/* footer */
+footer{
+    background-color: navy;
+    height: 200px;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+h2{
+    font-size: 24px;
+
+}
+h5{
+    font-size: 14px;
+}
+/* footer */
