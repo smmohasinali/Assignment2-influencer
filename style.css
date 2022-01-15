@@ -40,6 +40,48 @@ button{
     height: 25px;
 }
 
+
+/* .popular-collection */
+
 .popular-collection{
     text-align: center;
 }
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: ;
+}
+
+.collection-box{
+    width: 20;
+    box-shadow: 10px 10px 40px gray;
+}
+.collection-title{
+    font-size: 28px;
+    margin: 0;
+}
+.price{
+    font-size: 24px;
+    margin: 0;
+}
+.fa-star{
+    font-size: 10px;
+    margin-bottom: 0;
+}
+.fa-star.filled{
+    color: #FB8200;;
+}
+.fa-star.empty{
+    color: #9b9997;;
+}
+.rating{
+    margin: 0 0 0 8px;
+}
+.same-line{
+    display: flex;
+}
+h5{
+    margin: 0;
+}
+
+/* .popular-collection */
