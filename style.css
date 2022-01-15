@@ -163,7 +163,7 @@ h5{
 
 /* media query */
 @media (max-width: 700px) {
-    .influencer{
+    .influencer, .collections, .featured{
         flex-direction: column;
         flex-wrap: wrap;
         margin-bottom: 15px;
@@ -171,12 +171,12 @@ h5{
 
 }
 @media (min-width: 1200px) {
-    .collections{
+    .influencer, .collections, .featured{
         grid-template-columns: repeat(3, 1fr);
     }
 }
 @media (min-width: 700px) and (max-width:1200px) {
-    .featured{
+    .influencer, .collections, .featured{
         flex-direction: column;
         flex-wrap: wrap;
     }
