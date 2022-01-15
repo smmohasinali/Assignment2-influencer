@@ -1,0 +1,45 @@
+/* font style */
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Poppins:wght@500&display=swap');
+
+/* fontstyle */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+    color: #3A3A3A;
+    background-color: background: #AAAAAA;
+}
+main{
+    margin-top: 0;
+    
+}
+.main-header{
+    margin: 87px 0 145px 120px;
+    font-weight: 700px;
+    font-size: 24px;
+}
+.influencer{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.influencer img{
+    Width: 440px;
+    Height: 414px;
+    margin-right: 0;
+}
+
+.title{
+    font-size: 52px;
+    font-weight: 700px;
+    margin-bottom: 0;
+}
+
+button{
+    color: whitesmoke;
+    background-color: gray;
+    border: none;
+    border-radius: 15px;
+    height: 25px;
+}
