@@ -164,22 +164,19 @@ h5{
 /* media query */
 @media (max-width: 700px) {
     .influencer{
-        background-color: rgb(58, 58, 46);
         flex-direction: column;
-        
+        flex-wrap: wrap;
         margin-bottom: 15px;
     }
 
 }
 @media (min-width: 1200px) {
     .collections{
-        background-color: palegoldenrod;
-        display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
 }
 @media (min-width: 700px) and (max-width:1200px) {
     .featured{
-        background-color: rgb(207, 65, 89);
         flex-direction: column;
+        flex-wrap: wrap;
     }
